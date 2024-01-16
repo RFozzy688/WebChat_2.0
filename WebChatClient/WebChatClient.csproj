@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>WebChatClient</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <ApplicationIcon>Images\Logo\logo-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\fontawesome-webfont.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-Black.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-Bold.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-ExtraBold.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-Light.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-Medium.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-Regular.ttf" />
+    <None Remove="Fonts\Rounded\MPLUSRounded1c-Thin.ttf" />
+    <None Remove="Images\Background\emoji-background.png" />
+    <None Remove="Images\Logo\logo-icon.ico" />
+    <None Remove="Images\Logo\logo-icon.png" />
+    <None Remove="Images\Samples\p1.jpg" />
+    <None Remove="Images\Samples\p2.jpg" />
+    <None Remove="Images\Samples\p3.jpg" />
+    <None Remove="Images\Samples\p4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Logo\logo-icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="The.Microsoft.Expression.Interactions" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\fontawesome-webfont.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-Black.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-Bold.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-ExtraBold.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-Light.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-Medium.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-Regular.ttf" />
+    <Resource Include="Fonts\Rounded\MPLUSRounded1c-Thin.ttf" />
+    <Resource Include="Images\Background\emoji-background.png" />
+    <Resource Include="Images\Logo\logo-icon.ico" />
+    <Resource Include="Images\Logo\logo-icon.png" />
+    <Resource Include="Images\Samples\p1.jpg" />
+    <Resource Include="Images\Samples\p2.jpg" />
+    <Resource Include="Images\Samples\p3.jpg" />
+    <Resource Include="Images\Samples\p4.jpg" />
+  </ItemGroup>
+
+</Project>
