@@ -1,6 +1,7 @@
 ﻿using WindowHelper;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Controls;
 
 namespace WebChatClient
 {
@@ -74,5 +75,7 @@ namespace WebChatClient
         {
             return _windowResizer.GetCursorPosition();
         }
+
+        public Page CurrentPage { get; set; } = new LoginPage();
     }
 }

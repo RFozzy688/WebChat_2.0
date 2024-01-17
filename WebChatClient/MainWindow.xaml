@@ -91,7 +91,7 @@
                         
                         <Button x:Name="btnClose"
                                 Template="{StaticResource ButtonCloseWindow}"
-                                />
+                                Height="50"/>
 
                     </StackPanel>
                 </Grid>
@@ -114,7 +114,9 @@
                     <!--лист сообщений-->
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                
+
+                <Frame Content="{Binding CurrentPage}" Grid.Column="1" />
+
             </Grid>
             
         </Grid>

@@ -15,8 +15,9 @@
             </ResourceDictionary.MergedDictionaries>
 
             <Style x:Key="StringTitle"
-           TargetType="{x:Type TextBlock}"
-           BasedOn="{StaticResource BaseTextBlockStyle}">
+                   TargetType="{x:Type TextBlock}"
+                   BasedOn="{StaticResource BaseTextBlockStyle}">
+                
                 <Setter Property="FontFamily" Value="{StaticResource RoundedBold}"/>
                 <Setter Property="Foreground" Value="{StaticResource LightBlueBrush}"/>
                 <Setter Property="FontSize" Value="{StaticResource FontSizeXXLarge}"/>
