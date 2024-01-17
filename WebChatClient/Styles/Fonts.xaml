@@ -9,7 +9,7 @@
     
     <system:Double x:Key="FontSizeSmaller">10</system:Double>
     <system:Double x:Key="FontSizeSmall">12</system:Double>
-    <system:Double x:Key="FontSizeRegular">14</system:Double>
+    <system:Double x:Key="FontSizeRegular">16</system:Double>
     <system:Double x:Key="FontSizeLarge">20</system:Double>
     <system:Double x:Key="FontSizeXLarge">24</system:Double>
     <system:Double x:Key="FontSizeXXLarge">30</system:Double>
@@ -46,5 +46,7 @@
     <system:String x:Key="FA_TickIcon">&#xf00c;</system:String>
     <system:String x:Key="FA_CloseIcon">&#xf00d;</system:String>
     <system:String x:Key="FA_PaperPlaneIcon">&#xf1d9;</system:String>
+    <system:String x:Key="FA_KeyIcon">&#xf084;</system:String>
+    <system:String x:Key="FA_EmailIcon">&#xf003;</system:String>
 
 </ResourceDictionary>
